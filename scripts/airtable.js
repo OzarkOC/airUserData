@@ -6,9 +6,12 @@ import { timeout } from "./helper";
 // var base = new Airtable({
 //   apiKey: process.env.AIR_API_KEY,
 // }).base(process.env.AIR_BASE_ID);
+// var base = new Airtable({
+//   apiKey: process.env.AIR_API_KEY,
+// }).base(process.env.AIR_BASE_ID);
 var base = new Airtable({
-  apiKey: process.env.AIR_API_KEY,
-}).base(process.env.AIR_BASE_ID);
+  apiKey: env.AIR_API_KEY,
+}).base(env.AIR_BASE_ID);
 
 let table = base("Programs");
 
